@@ -1,0 +1,23 @@
+{
+  "name": "sample-solid-app",
+  "version": "1.0.0",
+  "description": "Sample app that uses Solid Data Modules to access data on a Solid pod in a way that aims to be interoperable with other existing Solid apps",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michielbdejong/sample-solid-app.git"
+  },
+  "author": "Michiel de Jong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michielbdejong/sample-solid-app/issues"
+  },
+  "homepage": "https://github.com/michielbdejong/sample-solid-app#readme",
+  "dependencies": {
+    "@solid-data-modules/contacts-rdflib": "^0.5.0",
+    "rdflib": "^2.2.34-1"
+  }
+}
