@@ -10,6 +10,8 @@
     </div>
   </body>
   <script src="./solid-auth-fetcher.bundle.js"></script>
+  <script type="module" src="./list-address-books.mjs"></script>
+  <script nomodule src="./fallback.js"></script>
   <script>
     async function go () {
       const testUrl = document.getElementById('testUrl').value;
@@ -36,6 +38,7 @@
   </script>
   <p>URL to access: <input value="https://michielbdejong.solidcommunity.net/private/" id="testUrl" style="width: 500;">
     <input type="submit" value="Go" onclick="go();"></p>
+    <p><input type="submit" value="List Address Books" id="list-address-books"></p>
   <p>Your WebID provider: <input value="https://solidcommunity.net" id="oidcIssuer" style="width: 300;"> (or https://broker.inrupt.com or https://localhost:8443 etc).</p>
   <p>Status: <span id="status"></span></p>
   <p><a href="https://github.com/michielbdejong/sample-solid-app">Fork me on GitHub!</a></p>

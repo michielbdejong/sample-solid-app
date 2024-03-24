@@ -1,0 +1,1 @@
+window.alert('Your browser does not seem to support .mjs imports?');
