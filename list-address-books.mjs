@@ -1,5 +1,5 @@
 import ContactsModuleRdfLib from './node_modules/@solid-data-modules/contacts-rdflib/dist/index.js';
-import {Fetcher, graph, UpdateManager} from "./node_modules/rdflib/dist/rdflib.min.js;
+import {Fetcher, graph, UpdateManager} from "./node_modules/rdflib/dist/rdflib.min.js";
 
 document.querySelector('list-address-books').onclick = async function () {
     const store = graph()
