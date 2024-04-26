@@ -18,6 +18,7 @@
   "homepage": "https://github.com/michielbdejong/sample-solid-app#readme",
   "dependencies": {
     "@solid-data-modules/contacts-rdflib": "^0.5.0",
-    "rdflib": "^2.2.34-1"
+    "rdflib": "^2.2.34-1",
+    "short-unique-id": "^5.0.3"
   }
 }
